@@ -1,0 +1,190 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(243, 234, 234, 0.8);
+}
+
+.logoContainer {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 80px;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.nav-li {
+    margin-left: 200px;
+    display: inline-block;
+    margin-right: 30px;
+    vertical-align: middle;
+}
+
+.footer-box {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(66, 52, 52, 0.9);
+    color: white;
+    height: 30px;
+}
+
+.inner-footer {
+    font-family: 'Muli', sans-serif;
+    margin: 0;
+}
+
+.Home {
+    text-align: center;
+    margin: 0 auto;
+    width: 1100px;
+    height: 880px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px;
+    margin-top: 25px;
+}
+
+.post-box {
+    padding: 10px;
+    width: 310px;
+    height: 400px;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    box-shadow: 0 5px 20px;
+}
+
+.box-title {
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Muli', sans-serif;
+}
+
+.box-text {
+    font-size: 16px;
+    margin-top: 10px;
+    font-family: 'Muli', sans-serif;
+}
+
+.TopUsers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.top-user {
+    width: 190px;
+    height: 195px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 5px;
+    box-shadow: 0 5px 20px;
+}
+
+.top-user-name {
+    margin: 10px 0;
+    font-family: 'Muli', sans-serif;
+}
+
+.top-user-email {
+    font-family: 'Muli', sans-serif;
+}
+
+.show-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.show-more-btn {
+    background: none;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(69, 69, 136);
+    height: 30px;
+    width: 100px;
+}
+
+.show-more-btn:hover {
+    color: #0087c1;
+}
+
+h1 {
+    margin: 0;
+}
+
+.registration-container {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 5px 20px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main_text {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form_wrapper {
+    padding: 20px;
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    width: 20px;
+    top: 30px;
+    left: 150px;
+}
+
+.form {
+    padding: 10px;
+    padding-left: 50px;
+    border: 1px solid #968282;
+    border-radius: 30px;
+}
+
+.registration-button {
+    background-color: rgb(134, 204, 245);
+    width: 110px;
+    border: 1px solid #968282;
+    border-radius: 30px;
+    padding: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 200px;
+}
+
+.about_user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-user-text {
+    text-align: center;
+}
